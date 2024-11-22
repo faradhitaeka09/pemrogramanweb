@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Tiket Bus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">BusTicket</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Rute</a></li>
+            <li><a href="#">Pesan Tiket</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1>Pesan Tiket Bus Mudah dan Cepat!</h1>
+        <p>Temukan rute favorit Anda dan pesan tiket sekarang!</p>
+        <form id="ticket-form">
+            <label for="departure">Kota Keberangkatan:</label>
+            <input type="text" id="departure" name="departure" required>
+
+            <label for="destination">Kota Tujuan:</label>
+            <input type="text" id="destination" name="destination" required>
+
+            <label for="date">Tanggal Keberangkatan:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Cari Tiket</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 BusTicket. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
